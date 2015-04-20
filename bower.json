@@ -1,0 +1,27 @@
+{
+  "name": "material-menu-drawer",
+  "version": "0.0.0",
+  "authors": [
+    "aguarino <andrea.guarino.1989@gmail.com>"
+  ],
+  "description": "A material design drawer directive for Angular.js",
+  "main": "material-menu-drawer.directive.js",
+  "keywords": [
+    "drawer",
+    "material",
+    "directive",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-snap": "~1.8.1",
+    "angular-ripple": "*"
+  }
+}

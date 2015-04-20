@@ -1,0 +1,17 @@
+<div class="menu-mobile">
+  <div class="drawer" snap-drawer="right">
+    <div id="top-drawer" style="background: url('{{topImage}}')">
+    </div>
+    <ul class="list-unstyled center-drawer">
+      <li ng-repeat="m in menu" angular-ripple snap-close>
+        <a href="" ng-click="goToSection(m.link)">
+          <span class="menu-icon"><img src="{{m.icon}}" /></span>{{m.title}}
+        </a>
+      </li>
+    </ul>
+    <div class="menu-footer">
+      <appbar class="appbar"></appbar>
+    </div>
+  </div>
+  <snap-content snap-opt-disable="'left'" class="body-drawer" ng-transclude></snap-content>
+</div>
